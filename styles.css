@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+head {
+    display: none;
+}
+.navbar-brand{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: black;
+    margin-left: 20px !important;
+}
+.navbar-header{
+    background: #53db31;
+}
+#page-title{
+    font-size: 100px;
+}
+body {
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #0a0808;
+    background-color: rgb(250, 249, 248);
+    margin: 0;
+    display: block;
+    padding-left: 0px;
+}
+#chicken{
+    font-size: 60px;
+    text-align: center;
+}
+#beef{
+    font-size: 60px;
+    text-align: center;
+}
+#sushi{
+    font-size: 60px;
+    text-align: center;
+}
+.one{
+    border: 5px double black;
+    padding: 5px;
+    overflow: hidden;
+    background: #75ac1e;
+    margin: 5px;
+    float: left;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px){
+    .navbar-header{
+        width: 100%;
+    }
+    .one{
+        width: 31.5%;
+        align-items: center;
+    }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar-header{
+        width: 100%;
+    }
+    .one{
+        width: 48%;
+        align-items: center;
+    }
+}
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-header{
+        width: 100%;
+    }
+    .one{
+        width: 48%;
+        align-items: center;
+    }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+    .one{
+        width: 100%;
+        align-items: center;
+    }
+
+}
+@media (max-width: 479px){
+    .one{
+        width: 31.5%;
+        align-items: center;
+    }
+
+}
